@@ -741,3 +741,12 @@ a.color1:hover {
   outline: none;
   background-color: #000000;
 }
+
+.containerG1 {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
