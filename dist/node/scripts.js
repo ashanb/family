@@ -42,44 +42,74 @@
 
   $(function() {
 
+    var map = new ol.Map({
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.Stamen({
+            layer: 'watercolor'
+          }),
+          preload: 4
+        }),
+        new ol.layer.Tile({
+          source: new ol.source.Stamen({
+            layer: 'terrain-labels'
+          }),
+          preload: 1
+        })
+      ],
+      target: 'pageBody',
+      view: new ol.View({
+        center: ol.proj.transform([-87.6297980, 41.8781140], 'EPSG:4326', 'EPSG:3857'),
+        zoom: 10
+      })
+    });
+
+    $('body').prepend(map.getViewport());    
+
+
     var datascource = {
-      'name': 'Lao Lao',
+    'name': 'A.H.M.C.V.P Bakmeedeniya',
 	  'id': '1',
-	  'title': 'general manager',
-	  'Partners': [{ 'id': '2', 'name': 'Harshi', 'title': 'Wife-Tester' }],
+	  'title': 'Entrepreneur',
+    'position': [-87.6297980, 41.8781140],
       'children': [
-        { 'id': '11','name': 'Ashan', 'title': 'department manager',
+        { 'id': '11','name': 'R.M Muthumanike', 'title': 'Entrepreneur', 'position': [-83.0457540, 42.3314270],
           'children': [
-            { 'id': '4','name': 'Li Jing Zai', 'title': 'senior engineer' },
-            { 'id': '3','name': 'Li Xin', 'title': 'senior engineer',
+            { 'id': '4','name': 'Li Jing Zai', 'title': 'Entrepreneur', 'position': [-81.6943610, 41.4993200] },
+            { 'id': '3','name': 'Li Xin', 'title': 'Entrepreneur',
               'children': [
-                {'id': '5','name': 'To To', 'title': 'engineer' },
-                {'id': '6','name': 'Fei Fei', 'title': 'engineer' },
-                {'id': '7', 'name': 'Xuan Xuan', 'title': 'engineer' }
+                {'id': '5','name': 'To To', 'title': 'Entrepreneur' },
+                {'id': '6','name': 'Fei Fei', 'title': 'Entrepreneur' },
+                {'id': '7', 'name': 'Xuan Xuan', 'title': 'Entrepreneur' }
               ]
             }
           ]
-        },
-        { 'id': '8','name': 'Su Miao', 'title': 'department manager',
-          'children': [
-            {'id': '9','name': 'Pang Pang', 'title': 'senior engineer' },
-            {'id': '10','name': 'Hei Hei', 'title': 'senior engineer',
-              'children': [
-                {'id': '11','name': 'Xiang Xiang', 'title': 'UE engineer' },
-                {'id': '12','name': 'Dan Dan', 'title': 'engineer' },
-                {'id': '13', 'name': 'Zai Zai', 'title': 'engineer' }
-              ]
-            }
-          ]
-        },
+        }
       ]
     };
 	
-		    $('#chart-container').orgchart({
+ $('#chart-container').orgchart({
       'data' : datascource,
       'nodeContent': 'title',
       'nodeID': 'id',
       'createNode': function($node, data) {
+          $node.on('click', function() {
+          var view = map.getView();
+          var duration = 2000;
+          var start = +new Date();
+          var pan = ol.animation.pan({
+            duration: duration,
+            source:  view.getCenter(),
+            start: start
+          });
+          var bounce = ol.animation.bounce({
+            duration: duration,
+            resolution: 4 * view.getResolution(),
+            start: start
+          });
+          map.beforeRender(pan, bounce);
+          view.setCenter(ol.proj.transform(data.position, 'EPSG:4326', 'EPSG:3857'));
+        });
         var secondMenuIcon = $('<i>', {
           'class': 'fa fa-info-circle second-menu-icon',
           click: function() {
@@ -90,6 +120,7 @@
         $node.append(secondMenuIcon).append(secondMenu);
       }
     });
+
 
     $('#btn-filter-node').on('click', function() {
       filterNodes($('#key-word').val());

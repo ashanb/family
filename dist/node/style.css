@@ -1,5 +1,5 @@
 .orgchart {
-  background: #fff;
+  background: rgba(255,255,255,0.75);	
 }
 .orgchart .node.matched {
   background-color: rgba(238, 217, 54, 0.5);
@@ -19,3 +19,15 @@
 #edit-panel * {
   font-size: 20px;
 }
+
+#chart-container {
+  position: absolute;
+  top: 10px;
+  left:40px;
+  height: auto;
+  max-height: 775px;
+  width: calc(100% - 80px);
+  z-index: 1;
+  border-color: rgba(217, 83, 79, 0.9);
+}
+
