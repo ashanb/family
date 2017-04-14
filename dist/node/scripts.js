@@ -358,6 +358,73 @@
                   ]
 
                 }]
+            },
+            //C
+            {
+              'id': 'male2', 'name': 'Voli Bakmeedeniya', 'title': 'C-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'female2', 'name': 'Desi', 'title': 'C-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    {
+                      'id': 'male2', 'name': 'Sunny Bakmeedeniya', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Doti', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200]
+                        },
+                        {
+                          'id': 'female2', 'name': 'Pearl Bakmeedeniya', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'male2', 'name': 'Jayamanna', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200]
+                            }
+                          ]
+                        },
+                        {
+                          'id': 'female2', 'name': 'Vayalot Bakmeedeniya', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'male2', 'name': 'Dissanayake', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200]
+                            }
+                          ]
+                        },
+                        {
+                          'id': 'male2', 'name': 'Siri', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'female2', 'name': 'Prema', 'title': 'C-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Chandrani Bakmeedeniya', 'title': 'C-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    {
+                                      'id': 'male2', 'name': 'Wijisiri wijesekara', 'title': 'C-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                                    }]
+
+                                },
+                                { 'id': 'male2', 'name': 'Ruwan Bakmeedeniya', 'title': 'C-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }]
+
+                }]
+            },
+            //D
+            {
+              'id': 'male2', 'name': 'Charli Bakmeedeniya', 'title': 'D-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'female2', 'name': 'Wife of Charli', 'title': 'D-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    {'id': 'male2', 'name': 'Son of Charli', 'title': 'D-L0-L1-L2', 'position': [-81.6943610, 41.4993200]},
+                    {'id': 'male2', 'name': 'Son of Charli', 'title': 'D-L0-L1-L2', 'position': [-81.6943610, 41.4993200]},
+                    {'id': 'male2', 'name': 'Nandana', 'title': 'D-L0-L1-L2', 'position': [-81.6943610, 41.4993200]},
+                    {'id': 'female2', 'name': 'Daughter of Charli', 'title': 'D-L0-L1-L2', 'position': [-81.6943610, 41.4993200]}                    
+                    ]
+                }]
             }
           ]
         }
