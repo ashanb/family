@@ -425,6 +425,79 @@
                     {'id': 'female2', 'name': 'Daughter of Charli', 'title': 'D-L0-L1-L2', 'position': [-81.6943610, 41.4993200]}                    
                     ]
                 }]
+            },
+              // E
+            {
+              'id': 'female2', 'name': 'Clera Bakmeedeniya', 'title': 'E-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'male2', 'name': 'E.E Kulathunga', 'title': 'E-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    //E1
+                    { 'id': 'male2', 'name': 'Paul Kulathunga', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200] },
+                    //E2
+                    { 'id': 'male2', 'name': 'R.D Kulathunga', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200] },
+                    // E3
+                    {
+                      'id': 'male2', 'name': 'Joseph', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Hema', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'male2', 'name': 'Parakrama Kulathunga', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Kumari', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Lakshitha Kulathunga', 'title': 'E-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Anuruddha Kulathunga', 'title': 'E-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            {
+                              'id': 'male2', 'name': 'Manjula Kulathunga', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Chandhani', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Anuradha Kulathunga', 'title': 'E-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            {
+                              'id': 'male2', 'name': 'Indika Kulathunga', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            },
+                            {
+                              'id': 'female2', 'name': 'Lasanthi Kulathunga', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            },
+                            {
+                              'id': 'female2', 'name': 'Guthila Kulathunga', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    //E4
+                    {
+                      'id': 'female2', 'name': 'Magaret Kulathunga', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'male2', 'name': 'R.D Jayasingha', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'female2', 'name': 'Jessica Jayasingha', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                { 'id': 'male2', 'name': 'Arjuna', 'title': 'E-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }]
+                            }
+                          ]
+                        }]
+                    },
+                    //E5
+                    { 'id': 'female2', 'name': 'Rita Kulathunga', 'title': 'E-L0-L1-L2', 'position': [-81.6943610, 41.4993200] },
+                  ]
+
+                }]
             }
           ]
         }
