@@ -1262,7 +1262,16 @@
                     }
                   ]
                 }]
-            }
+            },
+            // K   J.P.
+            {
+              'id': 'male2', 'name': 'J.P. Bakmeedeniya', 'title': 'K-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'female2', 'name': 'Wimalawathi', 'title': 'K-L0-L1', 'position': [-81.6943610, 41.4993200]
+                }]
+            },
+
 
           ]
         }
