@@ -1099,7 +1099,7 @@
                             },
                             // G1-2
                             {
-                              'id': 'male2', 'name': 'Adithya Wickramatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                              'id': 'male2', 'name': 'Adithya Wickramatunga', 'title': 'G-L0-L1-L2-L3,  Professor, Dindi', 'position': [-81.6943610, 41.4993200]
                             },
                             // G1-3
                             {
