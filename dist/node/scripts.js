@@ -879,7 +879,7 @@
             },
             // G Ranatunga
             {
-              'id': 'female2', 'name': 'Elan Bakmeedeniya', 'title': 'G-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'id': 'ElanRanathunga', 'name': 'Elan Bakmeedeniya', 'title': 'G-L0-L1', 'position': [-81.6943610, 41.4993200],
               'children': [
                 {
                   'id': 'male2', 'name': 'J.D.S Ranatunga', 'title': 'G-L0-L1', 'position': [-81.6943610, 41.4993200],
@@ -920,7 +920,7 @@
                     },
                     // G2
                     {
-                      'id': 'male2', 'name': 'Berti Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'id': 'BurtyRanathunga', 'name': 'Berti Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
                       'children': [
 
                         {
@@ -981,7 +981,7 @@
                     },
                     // G3
                     {
-                      'id': 'male2', 'name': 'Chandra Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'id': 'LawyerChandraRanathunga', 'name': 'Chandra Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
                       'children': [
                         {
                           'id': 'female2', 'name': 'Manel', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
@@ -1112,7 +1112,158 @@
                   ]
 
                 }]
+            },
+            // H Bowela
+            {
+              'id': 'female2', 'name': 'Grace Bakmeedeniya', 'title': 'H-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'male2', 'name': 'K.B Bowela', 'title': 'H-L0-L1', 'position': [-81.6943610, 41.4993200]
+                }]
+            },
+            // I Albert
+            {
+              'id': 'male2', 'name': 'Albert Bakmeedeniya', 'title': 'I-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'female2', 'name': 'Dingiri Amma', 'title': 'I-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    //I1
+                    // {
+                    //   'id': 'male2', 'name': 'Joseph', 'title': 'I-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                    //   'children': [
+                    //     {  
+                    //       'id': 'female2', 'name': 'Hema', 'title': 'I-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                    //       'children': [
+                    //         {
+                    //           'id': 'male2', 'name': 'Parakrama Kulathunga', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                    //           'children': [
+                    //             {
+                    //               'id': 'female2', 'name': 'Kumari', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                    //               'children': [
+                    //                 { 'id': 'male2', 'name': 'Lakshitha Kulathunga', 'title': 'I-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                    //                 { 'id': 'male2', 'name': 'Anuruddha Kulathunga', 'title': 'I-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                    //               ]
+                    //             }]
+                    //         },
+                    //         {
+                    //           'id': 'male2', 'name': 'Manjula Kulathunga', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                    //           'children': [
+                    //             {
+                    //               'id': 'female2', 'name': 'Chandhani', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                    //               'children': [
+                    //                 { 'id': 'male2', 'name': 'Anuradha Kulathunga', 'title': 'I-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                    //               ]
+                    //             }]
+                    //         },
+                    //         {
+                    //           'id': 'male2', 'name': 'Indika Kulathunga', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                    //         },
+                    //         {
+                    //           'id': 'female2', 'name': 'Lasanthi Kulathunga', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                    //         },
+                    //         {
+                    //           'id': 'female2', 'name': 'Guthila Kulathunga', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                    //         }
+                    //       ]
+                    //     }
+                    //   ]
+                    // },
+                    // //I4
+                    // {
+                    //   'id': 'female2', 'name': 'Magaret Kulathunga', 'title': 'I-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                    //   'children': [
+                    //     {
+                    //       'id': 'male2', 'name': 'R.D Jayasingha', 'title': 'I-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                    //       'children': [
+                    //         {
+                    //           'id': 'female2', 'name': 'Jessica Jayasingha', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                    //           'children': [
+                    //             { 'id': 'male2', 'name': 'Arjuna', 'title': 'I-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }]
+                    //         }
+                    //       ]
+                    //     }]
+                    // },
+                    // //I5
+                    // { 'id': 'female2', 'name': 'Rita Kulathunga', 'title': 'I-L0-L1-L2', 'position': [-81.6943610, 41.4993200] },
+                  ]
+                }]
+            },
+            // J TVP
+            {
+              'id': 'TVP', 'name': 'T.V.P. Bakmeedeniya', 'title': 'J-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'female2', 'name': 'Chandradevi', 'title': 'J-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    //J1
+                    {
+                      'id': 'female2', 'name': 'Jyantha Bakmeedeniya', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'male2', 'name': 'Lesli Wijerathne', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            { 'id': 'male2', 'name': 'Shashi Wijerathne', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] },
+                            { 'id': 'male2', 'name': 'Melani Wijerathne', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }
+                          ]
+                        }
+                      ]
+                    },
+                    //J2
+                    {
+                      'id': 'female2', 'name': 'Vinitha Bakmeedeniya', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'male2', 'name': 'Ananda Wijerathne', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            { 'id': 'male2', 'name': 'Thilini Wijerathne', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] },
+                            { 'id': 'male2', 'name': 'Channa Wijerathne', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] },
+                            { 'id': 'male2', 'name': 'Roshan Wijerathne', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }
+                          ]
+                        }
+                      ]
+                    },
+                    //J3
+                    {
+                      'id': 'male2', 'name': 'Donald Bakmeedeniya', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Aira', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            { 'id': 'male2', 'name': 'Anura Bakmeedeniya', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200] }
+                          ]
+                        }
+                      ]
+                    },
+                    //J4
+                    {
+                      'id': 'male2', 'name': 'Lal Bakmeedeniya', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Anula', 'title': 'J-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            {
+                              'id': 'Navinth', 'name': 'Navinth Bakmeedeniya', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Wathsala', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                                }]
+                            },
+                            {
+                              'id': 'Ashan', 'name': 'Ashan Bakmeedeniya', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Harshika', 'title': 'J-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                                }]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }]
             }
+
           ]
         }
       ]
