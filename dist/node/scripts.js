@@ -876,9 +876,243 @@
                   ]
 
                 }]
-            }
-// I Ranatunga
+            },
+            // G Ranatunga
+            {
+              'id': 'female2', 'name': 'Elan Bakmeedeniya', 'title': 'G-L0-L1', 'position': [-81.6943610, 41.4993200],
+              'children': [
+                {
+                  'id': 'male2', 'name': 'J.D.S Ranatunga', 'title': 'G-L0-L1', 'position': [-81.6943610, 41.4993200],
+                  'children': [
+                    // G1
+                    {
+                      'id': 'male2', 'name': 'George Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Beril', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G1-1
+                            {
+                              'id': 'male2', 'name': 'Sriyan Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Rohini', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Chamira Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Nadeeka Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G1-2
+                            {
+                              'id': 'female2', 'name': 'Nilanthi Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'male2', 'name': 'Parakrama Gamage', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Hasith Gamage', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Sanjaya Gamage', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            }
+                          ]
+                        }]
+                    },
+                    // G2
+                    {
+                      'id': 'male2', 'name': 'Berti Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
 
+                        {
+                          'id': 'female2', 'name': 'Hema', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G2-1
+                            {
+                              'id': 'male2', 'name': 'Lalith Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Uthara', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Dushani Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'female2', 'name': 'Anuki Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G2-2
+                            {
+                              'id': 'female2', 'name': 'Shanthi Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'male2', 'name': 'Bandula Bandaranayake', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Lahiru Bandaranayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Renuk Bandaranayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Kusal Bandaranayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G2-3
+                            {
+                              'id': 'female2', 'name': 'Anishka Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'male2', 'name': 'Depal Peiris', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Deneth Peiris', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Avanka Peiris', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G2-4
+                            {
+                              'id': 'male2', 'name': 'Rasika Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Shamini', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Amanda Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Charitha Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Devin Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            }
+                          ]
+                        }]
+                    },
+                    // G3
+                    {
+                      'id': 'male2', 'name': 'Chandra Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Manel', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G1-1
+                            {
+                              'id': 'male2', 'name': 'Ranjan Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Prasadini', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Chamithri Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Ranjan Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'female2', 'name': 'Navindri Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G1-2
+                            {
+                              'id': 'female2', 'name': 'Dilrukshi Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'male2', 'name': 'Lakshman Hulugalle', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Sachini Hulugalle', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'female2', 'name': 'Sajini Hulugalle', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'female2', 'name': 'Pamodi Hulugalle', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            }
+                          ]
+                        }]
+                    },
+                    // G4
+                    {
+                      'id': 'male2', 'name': 'Cyril Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'female2', 'name': 'Mertle', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G1-1
+                            {
+                              'id': 'male2', 'name': 'Niran Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Ranmali', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'male2', 'name': 'Ravin Ranatunga', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G1-2
+                            {
+                              'id': 'male2', 'name': 'Rajind Ranatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Meenal', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                                }]
+                            }
+                          ]
+                        }]
+                    },
+                    // G5
+                    {
+                      'id': 'female2', 'name': 'Leela Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'male2', 'name': 'Edmond Dharmasiriwardana', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G1-1
+                            {
+                              'id': 'female2', 'name': 'Pushpa Dharmasiriwardana', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'male2', 'name': 'Premawiththa Rathnayake', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Jinendri Rathnayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Anura Rathnayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] },
+                                    { 'id': 'male2', 'name': 'Charith Rathnayake', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G1-2
+                            {
+                              'id': 'male2', 'name': 'Damayantha Dharmasiriwardana', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Savumya', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                                  'children': [
+                                    { 'id': 'female2', 'name': 'Navodya Dharmasiriwardana', 'title': 'G-L0-L1-L2-L3-L4', 'position': [-81.6943610, 41.4993200] }
+                                  ]
+                                }]
+                            },
+                            // G1-3
+                            {
+                              'id': 'male2', 'name': 'Mahesh Dharmasiriwardana', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200],
+                              'children': [
+                                {
+                                  'id': 'female2', 'name': 'Sarojini', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                                }]
+                            }
+                          ]
+                        }]
+                    },
+                    // G6
+                    {
+                      'id': 'female2', 'name': 'Kamala Ranatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                      'children': [
+                        {
+                          'id': 'male2', 'name': 'Nandana Wickramatunga', 'title': 'G-L0-L1-L2', 'position': [-81.6943610, 41.4993200],
+                          'children': [
+                            // G1-1
+                            {
+                              'id': 'male2', 'name': 'Kumudu Wickramatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            },
+                            // G1-2
+                            {
+                              'id': 'male2', 'name': 'Adithya Wickramatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            },
+                            // G1-3
+                            {
+                              'id': 'male2', 'name': 'Channa Wickramatunga', 'title': 'G-L0-L1-L2-L3', 'position': [-81.6943610, 41.4993200]
+                            }
+                          ]
+                        }]
+                    },
+
+                  ]
+
+                }]
+            }
           ]
         }
       ]
