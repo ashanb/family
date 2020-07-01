@@ -1287,7 +1287,7 @@
                               'id': 'Ashan', 'name': 'Ashan Bakmeedeniya', 'title': 'J-L0-L1-L2-L3 ', 'position': [-81.6943610, 41.4993200],
                               'children': [
                                 {
-                                  'id': 'female2', 'name': 'Harshika', 'title': 'J-L0-L1-L2-L4 ', 'position': [-81.6943610, 41.4993200],
+                                  'id': 'female2', 'name': 'Harshika', 'title': 'J-L0-L1-L2-L3 ', 'position': [-81.6943610, 41.4993200],
                                   'children': [
                                     { 'id': 'male2', 'name': 'Suhas', 'title': 'J-L0-L1-L2-L4 ', 'position': [-81.6943610, 41.4993200] }
                                   ]
