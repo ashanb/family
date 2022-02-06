@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="./familytree.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="./tree.js"></script>
+    <!-- <script src="./tree.js"></script> -->
 </head>
 
 <Body>
     <div id="tree"/>
 </Body>
 
-<!-- <script>
+<script>
 //JavaScript
 var family = new FamilyTree(document.getElementById("tree"), {
     mode: 'dark',
@@ -24,16 +24,16 @@ var family = new FamilyTree(document.getElementById("tree"), {
 
 var arrItems = []; // THE ARRAY TO STORE JSON ITEMS.
 
-$(document).ready(function () {
+(function () {
     $.getJSON("./dataArray.json", function (data) {  
         $.each(data, function (index, value) {
             arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
         });
-    });
 });
+})();
 
 family.load(arrItems);
 
-</script> -->
+</script>
 
 </html>
