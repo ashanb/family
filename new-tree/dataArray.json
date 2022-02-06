@@ -1,11 +1,11 @@
 [
     {
-        "id": 1,
-        "pids": [
+        id: 1,
+        pids: [
             2
         ],
-        "name": "Amber McKenzie",
-        "gender": "female"
+        name: "Amber McKenzie",
+        gender: "female"
     },
     {
         "id": 2,
