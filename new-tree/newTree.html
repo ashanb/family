@@ -30,15 +30,11 @@
 
     var arrItems = []; // THE ARRAY TO STORE JSON ITEMS.
 
-    (function ($) {
-        $(function () {
-            $.getJSON("./dataArray.json", function (data) {
+    $.getJSON("./dataArray.json", function (data) {
                 $.each(data, function (index, value) {
                     arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
                 });
-            });
-        })
-    }(jQuery));
+    });
 
     family.load(arrItems);
 
