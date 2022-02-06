@@ -29,17 +29,16 @@
 
         $(document).ready(function () {
             var arrItems = []; // THE ARRAY TO STORE JSON ITEMS.
-            $.getJSON("./dataArray.json",
-                function (data) {
+            $.getJSON("./dataArray.json", function (data) {
                     $.each(data, function (index, value) {
-                        console.log(value);
+                        // console.log(value);
                         arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
                     })
                 }).fail(function () {
-                    console.log("An error has occurred.");
+                    // console.log("An error has occurred.");
                 });
 
-            console.log(arrItems[0]);    
+            // console.log(arrItems[0]);    
             family.load(arrItems);
         });
 
