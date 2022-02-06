@@ -30,16 +30,25 @@
 
         var arrItems = []; // THE ARRAY TO STORE JSON ITEMS.
         console.log("Started");
-        $(document).ready(function () {
-            console.log("Called");
-            $.getJSON("./dataArray.json", function (data) {
+        // $(document).ready(function () {
+        //     console.log("Called");
+        //     $.getJSON("./dataArray.json", function (data) {
+        //         $.each(data, function (index, value) {
+        //             console.log("Conatins Data, value");
+        //             arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
+        //             console.log(arrItems[0]);
+        //         });
+        //     });
+        // });
+
+        $.getJSON("./dataArray.json", function (data) {
                 $.each(data, function (index, value) {
                     console.log("Conatins Data, value");
                     arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
                     console.log(arrItems[0]);
                 });
             });
-        });
+
         console.log("End");
         family.load(arrItems);
     </script>
