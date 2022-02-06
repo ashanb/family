@@ -10,8 +10,8 @@
 
 <Body>
     <div id="tree" />
-
-    <script>
+    <script src="./tree.js"></script>
+    <!-- <script>
         // JavaScript
         var family = new FamilyTree(document.getElementById("tree"), {
             mode: 'dark',
@@ -43,16 +43,15 @@
 
         $.getJSON("./dataArray.json", function (data) {
                 $.each(data, function (index, value) {
-                    console.log("Conatins Data, value");
                     arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
-                    console.log(arrItems[0]);
+                    // console.log(arrItems[0]);
                 });
                 family.load(arrItems);
             });
 
-        console.log("End");
+        // console.log("End");
 
-    </script>
+    </script> -->
 
 </Body>
 
