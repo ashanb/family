@@ -34,6 +34,7 @@
             $.getJSON("./dataArray.json", function (data) {
                 $.each(data, function (index, value) {
                     arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
+                    console.log(arrItems[0]);
                 })
             });
         });
