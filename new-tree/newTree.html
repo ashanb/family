@@ -27,9 +27,10 @@
         //     { id: 3, mid: 1, fid: 2, name: "Peter Stevens", gender: "male" }
         // ]);
 
-        $(document).ready(function () {
+        (function () {
             var arrItems = []; // THE ARRAY TO STORE JSON ITEMS.
-            $.getJSON("./dataArray.json", function (data) {
+            $.getJSON("./dataArray.json")
+            .done( function (data) {
                     $.each(data, function (index, value) {
                         // console.log(value);
                         arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
