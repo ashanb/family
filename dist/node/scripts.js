@@ -68,6 +68,15 @@
 
 
     // var datascource = {
+    //   "id": "grandFather", "name": "A.H.M.C.V.P Bakmeedeniya", "L0 title": "L0 ", "position": [-87.6297980, 41.8781140],
+    //   "children": [
+    //     {
+    //       "id": "female2", "name": "R.M Muthumanike", "title": "L0 ", "position": [-83.0457540, 42.3314270]
+    //     }
+    //   ]
+    // };
+
+        // var datascource = {
     //   'id': 'grandFather', 'name': 'A.H.M.C.V.P Bakmeedeniya', 'L0 title': 'L0 ', 'position': [-87.6297980, 41.8781140],
     //   'children': [
     //     {
@@ -86,10 +95,12 @@
     //   ]
     // };
 
-    var datascource =  $.getJSON("./data.json"); // require('./data.json');
+    // var datascource =  require('./data.json');
+
+    // var datascource =  $.getJSON("./data.json");
 
     $('#chart-container').orgchart({
-      'data': datascource,
+      'data': 'member2.json',
       'nodeContent': 'title',
       'nodeID': 'id',
       'createNode': function ($node, data) {
@@ -116,6 +127,7 @@
             $(this).siblings('.second-menu').toggle();
           }
         });
+
         var secondMenu = '<div class="second-menu"><img class="avatar" src="../img/avatar/' + data.id + '.jpg"></div>';
         $node.append(secondMenuIcon).append(secondMenu);
       }
@@ -123,7 +135,8 @@
 
 
     $('#btn-filter-node').on('click', function () {
-      filterNodes($('#key-word').val());
+      clearFilterResult();
+      filterNodes($('#key-word').val().toLowerCase());
     });
 
     $('#btn-cancel').on('click', function () {
