@@ -11,7 +11,7 @@
                 {
                     "id": "male2",
                     "name": "Edward bakmeedeniya",
-                    "title": "A, Deceased, Sri Lankan, Registered Members : 33",
+                    "title": "A, Deceased, Sri Lankan, Registered Members : 34",
                     "children": [
                         {
                             "id": "female2",
@@ -386,7 +386,7 @@
                 {
                     "id": "male2",
                     "name": "Worlter Bakmeedeniya (වෝල්ටර් බක්මීදෙණිය)",
-                    "title": "C, Sri Lanka, Sri Lankan, Registered Members : 78",
+                    "title": "C, Sri Lanka, Sri Lankan, Registered Members : 79",
                     "children": [
                         {
                             "id": "female2",
@@ -407,7 +407,7 @@
                 {
                     "id": "male2",
                     "name": "Charlie Bakmeedeniya(චාලි බක්මීදෙණිය)",
-                    "title": "D, Sri Lanka, Sri Lankan, Registered Members : 19",
+                    "title": "D, Sri Lanka, Sri Lankan, Registered Members : 20",
                     "children": [
                         {
                             "id": "female2",
@@ -450,7 +450,7 @@
                 {
                     "id": "female2",
                     "name": "Clera Bakmeedeniya(ක්ලේරා බක්මීදෙනිය)",
-                    "title": "E, Sri Lanka, Sri Lankan, Registered Members : 27",
+                    "title": "E, Sri Lanka, Sri Lankan, Registered Members : 28",
                     "children": [
                         {
                             "id": "male2",
@@ -757,7 +757,7 @@
                 {
                     "id": "female2",
                     "name": "Rosaline Thilakarathne(රොසලින් තිලකරත්න )",
-                    "title": "F, Sri Lanka, Sri Lankan, Registered Members : 109",
+                    "title": "F, Sri Lanka, Sri Lankan, Registered Members : 110",
                     "children": [
                         {
                             "id": "male2",
@@ -778,7 +778,7 @@
                 {
                     "id": "female2",
                     "name": "Elan Bakmeedeniya(එලන් බක්මීදෙනිය)",
-                    "title": "G, Sri Lanka, Registered Members : 107",
+                    "title": "G, Sri Lanka, Registered Members : 108",
                     "children": [
                         {
                             "id": "male2",
@@ -1790,7 +1790,28 @@
                                                             "id": "female2",
                                                             "name": "Saroja Dharmasiriwardhana(සරෝජා ධර්මසිරිවර්ධන)",
                                                             "title": "G.5.3.W, Consultant Anesthatist, Sri Lanka",
-                                                            "children": [],
+                                                            "children": [
+                                                                {
+                                                                    "id": "female2",
+                                                                    "name": "Senuri Dharmasiriwardhana(සෙනුරි ධර්මසිරිවර්ධන)",
+                                                                    "title": "G.5.3.1, Financial Analyst, Sri Lanka",
+                                                                    "children": [],
+                                                                    "position": [
+                                                                        -87.629798,
+                                                                        41.878114
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "female2",
+                                                                    "name": "Isuni Dharmasiriwardhana(ඉසුනි ධර්මසිරිවර්ධන)",
+                                                                    "title": "G.5.3.2, Sri Lanka",
+                                                                    "children": [],
+                                                                    "position": [
+                                                                        -87.629798,
+                                                                        41.878114
+                                                                    ]
+                                                                }
+                                                            ],
                                                             "position": [
                                                                 -87.629798,
                                                                 41.878114
@@ -1849,7 +1870,39 @@
                                                     "id": "male2",
                                                     "name": "Adithya Wickramatunga(ආදිත්‍ය වික්‍රමතුංග)",
                                                     "title": "G.6.2, Research Officer/Business Owner, Sri Lanka",
-                                                    "children": [],
+                                                    "children": [
+                                                        {
+                                                            "id": "female2",
+                                                            "name": "Prabadini Wickramatunga(ප්‍රබාදිනී වික්‍රමතුංග)",
+                                                            "title": "G.6.2.W, Business Owner, Sri Lanka",
+                                                            "children": [],
+                                                            "position": [
+                                                                -87.629798,
+                                                                41.878114
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "position": [
+                                                        -87.629798,
+                                                        41.878114
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "male2",
+                                                    "name": "Channa Wickramatunga(චන්න වික්‍රමතුංග)",
+                                                    "title": "G.6.3, Consultant Nephralogist, U.S.A",
+                                                    "children": [
+                                                        {
+                                                            "id": "female2",
+                                                            "name": "Debra Wickramatunga(ඩෙබ්‍රා වික්‍රමතුංග)",
+                                                            "title": "G.6.3.W, ICU Administrator, U.S.A",
+                                                            "children": [],
+                                                            "position": [
+                                                                -87.629798,
+                                                                41.878114
+                                                            ]
+                                                        }
+                                                    ],
                                                     "position": [
                                                         -87.629798,
                                                         41.878114
@@ -1882,7 +1935,7 @@
                 {
                     "id": "female2",
                     "name": "Grace Bakmeedeniya(ග්‍රේස් බක්මීදෙනිය)",
-                    "title": "H, Sri Lanka, Sri Lankan, Registered Members : 12",
+                    "title": "H, Sri Lanka, Sri Lankan, Registered Members : 13",
                     "children": [
                         {
                             "id": "male2",
@@ -2031,7 +2084,7 @@
                 {
                     "id": "male2",
                     "name": "ALBERT BAKMEEDENIYA(ඇල්බට් බක්මීදෙණිය)",
-                    "title": "I, Deceased, Registered Members : 35",
+                    "title": "I, Deceased, Registered Members : 36",
                     "children": [
                         {
                             "id": "female2",
@@ -2052,7 +2105,7 @@
                 {
                     "id": "male2",
                     "name": "Theodore Valentine Perera Bakmeedeniya(තියඩොර් වැලන්ටයින් පෙරේරා බක්මීදෙනිය)",
-                    "title": "J, Tea Factory First Officer (Retired), Sri Lanka, Sri Lankan, Registered Members : 29",
+                    "title": "J, Tea Factory First Officer (Retired), Sri Lanka, Sri Lankan, Registered Members : 30",
                     "children": [
                         {
                             "id": "female2",
@@ -2383,7 +2436,7 @@
                 {
                     "id": "male2",
                     "name": "John Perera Bakmeedeniya(බක්මීදෙනිය)",
-                    "title": "K, Sri Lanka, Sri Lankan, Registered Members : 62",
+                    "title": "K, Sri Lanka, Sri Lankan, Registered Members : 63",
                     "children": [
                         {
                             "id": "female2",
