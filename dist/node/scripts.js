@@ -100,7 +100,7 @@
     // var datascource =  $.getJSON("./data.json");
 
     $('#chart-container').orgchart({
-      'data': 'member2.json',
+      'data': 'data.json',
       'nodeContent': 'title',
       'nodeID': 'id',
       'createNode': function ($node, data) {
