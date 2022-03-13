@@ -7,7 +7,7 @@
 <link rel="icon" href="images/favicon.ico">
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="stylesheet" href="css/contact-form.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
@@ -43,34 +43,43 @@
 <!--==============================
               header
 =================================-->
-<header>
-  <div class="container_12">
-    <div class="grid_12">
-        <h4>
-            <a href="index.html">
-                Bakmeedeniya Family Union
-            </a>
-        </h4>
+<header style="background: url(''); background-position: center;background-repeat: no-repeat; background-size: cover; background-color: white;">
+  <div class="">
+    <div class="">
+      <table>
+        <tr>
+          <td>
+         &nbsp; &nbsp;<img src="images/LogoThumb.png" alt="LOGO"/>
+         <br>
+         </td><td><font size="20em" color="#5c627c" style="font-family: 'Economica', sans-serif"><a href="index.html"><br> <br> &nbsp; &nbsp;Bakmeedeniya Family Union</a></font><br> <br> 
+          <font size="5em" color="#ad6174" style="font-family: 'Economica', sans-serif; font-style:italic">&nbsp; &nbsp;"Unity is the symbol of strength"</font></td>
+         </tr>
+         
+         </table>
     </div>
     <div class="clear"></div>
   </div>
-  <section id="stuck_container">
+  <section id="stuck_container" style="background-color:black">
   <!--==============================
               Stuck menu
   =================================-->
     <div class="container_12">
         <div class="grid_12">          
           <div class="navigation ">
-            <nav>
+            <nav id="hamNav">
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
+
               <ul class="sf-menu">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="about.html">About</a></li>
-                <li><a href="dist/node/index.html">Family Tree</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="dist/node/familytree.html">Family Tree</a></li>
+                <li><a href="events.html">Events</a></li>
                 <li><a href="Gallery.html">Gallery</a></li>
-               <li><a href="mission.html">Mission</a></li>
-               <li><a href="membership.html">Membership</a></li>
-               <li class="current"><a href="contacts.html">Contacts</a></li>
-             </ul>
+                <li><a href="membership.html">Membership</a></li>
+                <li class="current"><a href="contacts.html">Contacts</a></li>
+              </ul>
             </nav>
             <div class="clear"></div>
           </div>       
@@ -83,28 +92,30 @@
 <!--=====================
           Content
 ======================-->
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
+<section id="content"><div class="ic"></div>
   <div class="container_12">
     <div class="grid_12">
       <h2 class="ta__center">
         How to Find Us
       </h2>
-      <div class="map">
+   <div class="map" >
         <figure class="">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44780.70260600747!2d80.4385441927624!3d7.230311453138235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae314a973c61a67%3A0x65fa7bb82975720b!2zTWF3YW5lbGxhIOC2uOC3j-C3gOC2seC3kOC2veC3iuC2vQ!5e0!3m2!1sen!2slk!4v1646637749994!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </figure>
-        <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" class="color1 fwn">premium themes</a>. </p>
-        <p>Guys from <a href="http://www.templatetuning.com/" rel="nofollow" class="color1 fwn">TemplateTuning</a> will help you with customization of the chosen themes. Note that it's a paid service.</p>
-        <p>Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libero. </p>
-        <p>8901 Marmora Road, Glasgow, D04 89GR.</p>
-        Freephone: +1 800 559 6580 <br>
-        Telephone: +1 800 603 6035 <br>
-        E-mail: <a href="#">mail@demolink.org</a>
+        
+      <div style="margin-left:10%;margin-right:10%">
+        Address: Bakmeedeniya, Mawanella  <br>
+        WhatsApp:  <br>
+        Telephone:  <br>
+        E-mail: <a href="mailto:bakmeedeniyafamilyunion@gmail.com">bakmeedeniyafamilyunion@gmail.com</a><br>
+        <p>&nbsp;</p>
       </div>
+      </div>
+      <div class="clear"></div>
     </div>
     <div class="clear"></div>
   </div>
-  <article class="block-1 contacts ">
+ <!-- <article class="block-1 contacts ">
     <div class="container_12">
       <div class="grid_12">
         <h3 class="white ta__center">Contact Form</h3>
@@ -160,28 +171,29 @@
       </form>   
       <div class="clear"></div>
     </div>
-  </article>
+  </article>-->
 </section>
+<div class="clear"></div>
 <!--==============================
               footer
 =================================-->
-<footer id="footer">
+<footer id="footer" style="background-color: #1e2439;">
   <div class="container_12">
-    <div class="grid_12"> 
-
-        <a href="index.html">
+    <div class="grid_12">
+      <a href="index.html">
           Bakmeedeniya Family Union
-        </a>
+      </a>
       <div class="socials">
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-google-plus"></a>
-        <a href="#" class="fa fa-pinterest"></a>
+        <!--<a href="#" class="fa fa-twitter"></a>-->
+        <a href="https://www.facebook.com/bakmeedeniya.familyunion" class="fa fa-facebook"></a>
+        <!--<a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>-->
       </div>
-        <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="ashanbonline@gmail.com" rel="nofollow">ashanbonline@gmail.com</a></div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="ashanbonline@gmail.com"
+          rel="nofollow">ashanbonline@gmail.com</a></div>
     </div>
     <div class="clear"></div>
-  </div>  
+  </div>
 </footer>
 <a href="#" id="toTop" class="fa fa-angle-up"></a>
 </body>
