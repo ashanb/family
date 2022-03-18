@@ -13,20 +13,137 @@
     <link rel="stylesheet" href="../css/jquery.orgchart.css">
     <link rel="stylesheet" href="../css/css-style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/style3.css">
+
+<style>
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #111311;
+}
+
+</style>
+
 
 </head>
 <body>
+<!--==============================
+              header
+=================================-->
+<header style="background: url(''); background-position: center;background-repeat: no-repeat; background-size: cover; background-color: white;">
+  <div class="">
+    <div class="">
+      <table>
+        <tr>
+          <td>
+         &nbsp; &nbsp;<img src="../../images/LogoThumb.png" alt="LOGO" width="100" height="100"/>
+         <br>
+         </td><td><font size="3em" color="#5c627c" style="font-family: 'Economica', sans-serif; font-weight: bolder; margin-top: 0%;">
+          <a href="../../index.html"><br> <br> &nbsp; &nbsp;Bakmeedeniya Family Union</a></font>
+          <!-- <br> <br>  -->
+          <span style="white-space: pre-line">
+          <font size="2em" color="#ad6174" style="font-family: 'Economica', sans-serif; font-style:italic">&nbsp; &nbsp;"Unity is the symbol of strength"</font>
+        </span>
+        
+        </td>
+         </tr>
+         
+         </table>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container" style="background-color:black">
+  <!--==============================
+              Stuck menu
+  =================================-->
+  <div class="container_12">
+    <div class="grid_12">          
+      <div class="navigation ">
+        <nav id="hamNav">
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+
+          <ul class="sf-menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../about.html">About</a></li>
+            <li><a href="../../mission.html">Mission</a></li>
+            <li  class="current"><a href="familytree.html">Family Tree</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="../../Gallery.html">Gallery</a></li>
+            <li><a href="../../membership.html">Membership</a></li>
+            <li><a href="../../contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>       
+     <div class="clear"></div>  
+ </div> 
+ <div class="clear"></div>
+</div> 
+</section>
+</header>
+
   <div id="edit-panel" class="view-state">
+
     <input type="text" id="key-word">
     <button type="button" id="btn-filter-node">Search</button>
     <button type="button" id="btn-cancel">Cancel</button>
+    <button type="button" id="btn-group-a" title="Edward">A</button>
+    <button type="button" id="btn-group-b" title="Richard">B</button>
+    <button type="button" id="btn-group-c" title="Volie">C</button>
+    <button type="button" id="btn-group-d" title="Charlie">D</button>
+    <button type="button" id="btn-group-e" title="Clera">E</button>
+    <button type="button" id="btn-group-f" title="Roselin">F</button>
+    <button type="button" id="btn-group-g" title="Elan">G</button>
+    <button type="button" id="btn-group-h" title="Grace">H</button>
+    <button type="button" id="btn-group-i" title="Albert">I</button>
+    <button type="button" id="btn-group-j" title="T.V.P">J</button>
+    <button type="button" id="btn-group-k" title="J.P">K</button>
   </div>
-  <div id="chart-container"></div>
+  <div id="chart-container" class='lyricpadding'></div>
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.18.2/ol.js"></script>
   <script type="text/javascript" src="../js/jquery.orgchart.js"></script>
   <script type="text/javascript" src="scripts.js"></script>
+  <!--==============================
+              footer
+=================================-->
+<footer id="footer" style="background-color: #1e2439;">
+  <div class="container_12">
+    <div class="grid_12">
+      <a href="../../index.html">
+          Bakmeedeniya Family Union
+      </a>
+     <div class="socials">
+  
+        <!--<a href="#" class="fa fa-twitter"></a>-->
+        <a href="https://www.facebook.com/bakmeedeniya.familyunion" class="fa fa-facebook"></a>
+        <!--<a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>-->
+      </div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="ashanbonline@gmail.com"
+          rel="nofollow">ashanbonline@gmail.com</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
 </body>
 
 </html>

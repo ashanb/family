@@ -1,12 +1,12 @@
 {
     "id": "male2",
-    "name": "A.H.M.C.V.P Bakmeedeniya",
-    "title": "root, Registered Members : 655",
+    "name": "Abayalankara Herath Mudalige Charles Vincent Prera Bakmeedeniya",
+    "title": "Grate-Grate-GrandFather, Registered Members : 655",
     "children": [
         {
             "id": "female2",
-            "name": "R.M Muthumanike",
-            "title": "wife of the root",
+            "name": "Ranathunga Mudiyanselage Muthumanike",
+            "title": "Grate-Grate-GrandMother",
             "children": [
                 {
                     "id": "male2",
@@ -2790,12 +2790,12 @@
                                                                     "children": [
                                                                         {
                                                                             "id": "male2",
-                                                                            "name": "Lashan Madusha(,Idka uOQI )",
+                                                                            "name": "Lashan Madusha(ලෂාන් මධූෂ)",
                                                                             "title": "E.3.2.1.H, Scientist, USA, Sri Lankan",
                                                                             "children": [
                                                                                 {
                                                                                     "id": "female2",
-                                                                                    "name": "Senudi Nimsara(fikqos ksïird  )",
+                                                                                    "name": "Senudi Nimsara(සෙනුදි නිම්සරා)",
                                                                                     "title": "E.3.2.1.1, USA",
                                                                                     "children": [],
                                                                                     "position": [
@@ -2805,7 +2805,7 @@
                                                                                 },
                                                                                 {
                                                                                     "id": "male2",
-                                                                                    "name": "Athinthiya Rashmin(w;ska;H rYañka)",
+                                                                                    "name": "Athinthiya Rashmin(අනිත්‍ය රශ්මින්)",
                                                                                     "title": "E.3.2.1.2, USA",
                                                                                     "children": [],
                                                                                     "position": [
@@ -3010,7 +3010,7 @@
                                 },
                                 {
                                     "id": "female2",
-                                    "name": "Eeta Kulathunga(ඊටා කුලතුංග)",
+                                    "name": "Reeta Kulathunga(රීටා කුලතුංග)",
                                     "title": "E.5, Sri Lanka, Sri Lankan",
                                     "children": [],
                                     "position": [
@@ -6224,7 +6224,7 @@
                                                             "children": [
                                                                 {
                                                                     "id": "male2",
-                                                                    "name": "Suhas Nithis Bakmeedeniya(සුහස් නිතිශ් බක්මීදෙනිය)",
+                                                                    "name": "Suhas Nithish Bakmeedeniya(සුහස් නිතිශ් බක්මීදෙනිය)",
                                                                     "title": "J.4.2.1, Sri Lanka, Sri Lankan",
                                                                     "children": [],
                                                                     "position": [

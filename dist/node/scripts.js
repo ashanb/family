@@ -5,7 +5,7 @@
   function filterNodes(keyWord) {
     if (!keyWord.length) {
       window.alert('Please type key word firstly.');
-      return;
+      filterNodes('registered');
     } else {
       var $chart = $('.orgchart');
       // disalbe the expand/collapse feture
@@ -102,6 +102,7 @@
       'data': 'data.json',
       'nodeContent': 'title',
       'nodeID': 'id',
+      'depth': 3,
       'createNode': function ($node, data) {
         $node.on('click', function () {
           var view = map.getView();
@@ -120,17 +121,21 @@
           map.beforeRender(pan, bounce);
           view.setCenter(ol.proj.transform(data.position, 'EPSG:4326', 'EPSG:3857'));
         });
-        var secondMenuIcon = $('<i>', {
-          'class': 'fa fa-info-circle second-menu-icon',
-          click: function () {
-            $(this).siblings('.second-menu').toggle();
-          }
-        });
+        // var secondMenuIcon = $('<i>', {
+        //   'class': 'fa fa-info-circle second-menu-icon',
+        //   click: function () {
+        //     $(this).siblings('.second-menu').toggle();
+        //   }
+        // });
         var secondMenu = '<div class="second-menu"><img class="avatar" src="../img/avatar/' + data.id + '.jpg"></div>';
-        $node.append(secondMenuIcon).append(secondMenu);
+        $node.append(secondMenu); // .append(secondMenuIcon)
       }
-    });
+    }
+    );
 
+    // window.alert('Please type key word firstlaaaaaaay.');
+
+    filterNodes('registered');
 
     $('#btn-filter-node').on('click', function () {
       clearFilterResult();
@@ -139,6 +144,54 @@
 
     $('#btn-cancel').on('click', function () {
       clearFilterResult();
+      // alertX();
+      filterNodes('registered');
+    });
+
+    
+    $('#btn-group-a').on('click', function () {
+      clearFilterResult();
+      filterNodes('a.');
+    });
+    $('#btn-group-b').on('click', function () {
+      clearFilterResult();
+      filterNodes('b.');
+    });
+    $('#btn-group-c').on('click', function () {
+      clearFilterResult();
+      filterNodes('c.');
+    });
+    $('#btn-group-d').on('click', function () {
+      clearFilterResult();
+      filterNodes('d.');
+    });
+    $('#btn-group-e').on('click', function () {
+      clearFilterResult();
+      filterNodes('e.');
+    });
+    $('#btn-group-f').on('click', function () {
+      clearFilterResult();
+      filterNodes('f.');
+    });
+    $('#btn-group-g').on('click', function () {
+      clearFilterResult();
+      filterNodes('g.');
+    });
+    $('#btn-group-h').on('click', function () {
+      clearFilterResult();
+      filterNodes('h.');
+    });
+    $('#btn-group-i').on('click', function () {
+      clearFilterResult();
+      filterNodes('i.');
+    });
+    $('#btn-group-j').on('click', function () {
+      clearFilterResult();
+      filterNodes('j.');
+    });
+    $('#btn-group-k').on('click', function () {
+      clearFilterResult();
+      filterNodes('k.');
     });
 
     $('#key-word').on('keyup', function (event) {
@@ -154,3 +207,18 @@
   });
 
 })(jQuery);
+
+window.onload = function alertX() {
+  // window.alert('Please type key word firstly.');
+}
+
+$(window).resize(function(){
+   positionMiddle();
+});
+
+$(window).scroll(function(){    
+   positionMiddle();
+});
+
+// To initially run the function:
+positionMiddle();
