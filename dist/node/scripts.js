@@ -208,17 +208,17 @@
 
 })(jQuery);
 
-window.onload = function alertX() {
-  // window.alert('Please type key word firstly.');
-}
+// window.onload = function alertX() {
+//   // window.alert('Please type key word firstly.');
+// }
 
-$(window).resize(function(){
-   positionMiddle();
-});
+// $(window).resize(function(){
+//    positionMiddle();
+// });
 
-$(window).scroll(function(){    
-   positionMiddle();
-});
+// $(window).scroll(function(){    
+//    positionMiddle();
+// });
 
-// To initially run the function:
-positionMiddle();
+// // To initially run the function:
+// positionMiddle();
