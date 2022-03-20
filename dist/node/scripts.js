@@ -127,7 +127,7 @@
         //     $(this).siblings('.second-menu').toggle();
         //   }
         // });
-        var secondMenu = '<div class="second-menu"><img class="avatar" src="../img/avatar/' + data.id + '.jpg"></div>';
+        var secondMenu = '<div class="second-menu"><img class="avatar" src="../img/avatar/' + data.id + '.png"></div>';
         $node.append(secondMenu); // .append(secondMenuIcon)
       }
     }
