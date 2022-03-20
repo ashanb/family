@@ -4,6 +4,11 @@
 .orgchart .node.matched {
   background-color: rgba(238, 217, 54, 0.5);
 }
+
+.orgchart .node {
+  width: auto !important;
+}
+
 #edit-panel {
   text-align: center;
   position: relative;
@@ -30,3 +35,44 @@
   border-color: rgba(217, 83, 79, 0.9);
 }
 
+/* .container {
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  overflow: scroll;
+  margin-left: 50px;
+} */
+
+
+.orgchart .node.matched { background-color: rgba(238, 217, 54, 0.5); }
+.orgchart .hierarchy.first-shown::before {
+  left: calc(50% - 1px);
+  width: calc(50% + 1px);
+}
+.orgchart .hierarchy.last-shown::before {
+  width: calc(50% + 1px);
+}
+.orgchart .hierarchy.first-shown.last-shown::before {
+  width: 2px;
+}
+#edit-panel {
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+}
+#edit-panel * { font-size: 1rem; }
+button, input { padding: 0.5rem 1rem; }
+
+
+.lyricpadding
+{
+    height:1000px;
+    width:100%;   
+    background-color:lightblue;
+}
+.highlighted
+{    
+    display:inline-block;
+    position:absolute;
+}
