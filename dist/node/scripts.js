@@ -99,7 +99,7 @@
     // var datascource =  $.getJSON("./data.json");
 
     $('#chart-container').orgchart({
-      'data': 'data.json',
+      'data': 'dist/node/data.json',
       'nodeContent': 'title',
       'nodeID': 'id',
       'depth': 3,
@@ -127,7 +127,7 @@
         //     $(this).siblings('.second-menu').toggle();
         //   }
         // });
-        var secondMenu = '<div class="second-menu"><img class="avatar" src="../img/avatar/' + data.id + '.png"></div>';
+        var secondMenu = '<div class="second-menu"><img class="avatar" src="dist/img/avatar/' + data.id + '.png"></div>';
         $node.append(secondMenu); // .append(secondMenuIcon)
       }
     }
